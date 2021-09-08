@@ -1,0 +1,38 @@
+<% include partial/header %>
+<!-- <h1>Compose</h1>
+<form action="/compose" method="POST">
+    <input type="text" placeholder="Compose" name="composedtext">
+    <button type="submit" >Publish</button>
+</form> -->
+<h1>Compose</h1>
+<form action="/compose" method="POST">
+<div class="form-group">
+    
+    <label for="usr">Title:</label>
+    <input type="text" class="form-control" id="usr" name="postTitle">
+  
+    <label for="comment">Post:</label>
+    <textarea class="form-control" rows="5" id="comment" name="posttext"></textarea>
+    
+</div>
+  <button type="submit" class="btn btn-primary">Publish</button>
+
+</form>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<% include partial/footer %>
